@@ -3,14 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package cat.Primera_practica;
-
-
 import java.util.Scanner;
-
-/**
- *
- * @author alumne_2n
- */
+//Andreu Furió Casanova
+//Nom:
+//Cognoms:
+//INS Manuel Vázquez Montalbán
+//Data d’edició:
+//Nom del cicle formatiu:
+//Nom del mòdul:
 public class Exercisi1 {
 
     public static final String MSG_1 = "Andreu";
