@@ -24,7 +24,7 @@ public class Exercisi6 {
         numAny = sc.nextInt();
         System.out.println(MSG_2);
         numMes = sc.nextInt();
-        if (numMes <= 12 && numMes >= 1) {
+        if (numMes <= 12 && numMes >= 1 && numAny % 4 == 0 && numAny % 100 != 0 || (numAny % 400 == 0)){
             switch (numMes) {
                 case 1:
                 case 3:
@@ -36,7 +36,7 @@ public class Exercisi6 {
                     System.out.println("Te 31 dies");
                     break;
                 case 2:
-                    System.out.println("Te 28 dies (29 en cas de que sigui de traspas)");
+                    System.out.println("Te 28 dies");
                     break;
                 case 4:
                 case 6:
@@ -45,8 +45,26 @@ public class Exercisi6 {
                     System.out.println("Te 30 dies");
                     break;
             }
-        }else{
-         System.out.println("El valor de mes introduït no es dins l'interval");   
+        }else{switch (numMes) {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    System.out.println("Te 31 dies");
+                    break;
+                case 2:
+                    System.out.println("Te 29 dies");
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    System.out.println("Te 30 dies");
+                    break;  
         }
     }
+}
 }
